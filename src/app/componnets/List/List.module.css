@@ -10,7 +10,7 @@
 }
 .liList p{
     width: 20px;
-    height: 0.2px;
+    height: 0.1px;
     background-color: rgb(191, 190, 190);
     /* display: inline-block; */
     margin: 30px 10px;
@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .liList:hover p{
@@ -34,11 +35,12 @@ transition: all .2s;
 
 }
 .isactive{
-    width: 60px !important;
+    width: 80px !important;
 transition: all .2s !important;
 background-color: white !important;
 }
 .listactive{
+    font-size: 25px;
     color: white;
     transition: all .2s;
 }
