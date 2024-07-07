@@ -7,13 +7,14 @@ export default function page() {
   return (
     <div className={style.profilo}>
 
-<div className={style.Left}>
+<div className={style.Left_style} >
+  <div className={style.Left}>
   <HeaderLeft/>
   <List/>
   <Socoial/>
 
 
-</div>
+</div></div>
 <div className={style.Right}>0</div>
 
 

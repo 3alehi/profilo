@@ -1,7 +1,7 @@
 .Left{
 
 /* background-color: blue; */
-width: 100%;
+/* width: 100%; */
 height: 100vh;
 /* align-items: center;
 text-align: center; */
@@ -9,7 +9,7 @@ margin: 0 20px;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 0  300px;
+
 position: sticky;
 }
 .Right{
@@ -22,5 +22,14 @@ position: sticky;
   width: 100vw;
   height: 100vh;
   color: white;
+
+}
+.Left_style{
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin-top:150px;
 
 }
