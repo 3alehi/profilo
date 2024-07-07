@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .flair {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+  }
+  

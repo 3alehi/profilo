@@ -1,0 +1,16 @@
+
+  .h1{
+    font-size: 40px;
+  }
+  .p{
+    color: #829ed4;
+  }
+  .btn{
+    display: none;
+  }
+  .Left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+  }
